@@ -153,7 +153,7 @@ a:hover { color:#009999; }
 .tm-container-small { max-width: 1050px; }
 .btn { border-radius: 0; }
 .btn-primary {
-    background-color: #009999;
+    background-color: #f7c21d;
     border: 0;
     border-radius: 5px;
     padding: 12px 50px 14px;
@@ -167,7 +167,7 @@ a:hover { color:#009999; }
 
 .btn-primary.disabled, 
 .btn-primary:disabled {
-    background-color: #009999;
+    background-color: #f7c21d;
     pointer-events: all;
     cursor: not-allowed;
 }
@@ -183,7 +183,7 @@ a:hover { color:#009999; }
 
 .navbar-toggler:focus { box-shadow: none; }
 .navbar-brand {
-    color: #f0e515;
+    color: #e81422;
     font-size: 1.6rem;
 }
 
@@ -198,7 +198,7 @@ a:hover { color:#009999; }
 .tm-mb-50 { margin-bottom: 50px; }
 .tm-mb-74 { margin-bottom: 74px; }
 .tm-mb-90 { margin-bottom: 90px; }
-.tm-text-primary { color: #009999; }
+.tm-text-primary { color: #e81422; }
 .tm-text-secondary { color: #CC6699; }
 a.tm-text-primary:hover { color:#666666; }
 .tm-bg-gray { background-color: #EEEEEE; }
@@ -263,16 +263,16 @@ a.tm-text-primary:hover { color:#666666; }
 
 .tm-search-btn {
     color: white;
-    background-color: #009999;
+    background-color: #f7c21d;
     border: none;
     width: 100px;
     height: 50px;
     margin-left: -1px;
 }
 
-p, .tm-text-gray { color: #999; }
-.tm-text-gray-light { color: #CCC; }
-.tm-text-gray-dark { color: #666; }
+p, .tm-text-gray { color: #e81422; }
+.tm-text-gray-light { color: #e81422; }
+.tm-text-gray-dark { color: #e81422; }
 
 .tm-video-item {
     position: relative;
@@ -365,7 +365,7 @@ p, .tm-text-gray { color: #999; }
 
 .tm-paging-link:hover,
 .tm-paging-link.active {
-    background-color: #009999;
+    background-color: #f7c21d;
     color: #fff; 
 }
 
