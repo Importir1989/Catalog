@@ -222,44 +222,44 @@ a.tm-text-primary:hover { color:#666666; }
 
 .nav-link-1.active,
 .nav-link-1:hover {
-    border-color: #33CCFF;
+    border-color: #e81422;
 }
 
 .nav-link-2.active,
 .nav-link-2:hover {
-    border-color: #FF6666;
+    border-color: #e81422;
 }
 
 .nav-link-3.active,
 .nav-link-3:hover {
-    border-color: #33CC66;
+    border-color: #e81422;
 }
 
 .nav-link-4.active,
 .nav-link-4:hover {
-    border-color: #CC66CC;
+    border-color: #e81422;
 }
 
 .tm-search-input {
     width: 360px;
     border-radius: 0;
     padding: 12px 15px;
-    color: #009999;
+    color: #e81422;
     border: none;
 }
 
 .tm-search-input:focus {
-    border-color: #009999;
+    border-color: #e81422;
     box-shadow: 0 0 0 0.25rem rgb(0 153 153 / 0.25);
 }
 
 .tm-search-input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-    color: #009999;
+    color: #e81422;
     opacity: 1; /* Firefox */
 }
   
 .tm-search-input::-ms-input-placeholder { /* Microsoft Edge */
-    color: #009999;
+    color: #e81422;
 }
 
 .tm-search-btn {
@@ -271,7 +271,8 @@ a.tm-text-primary:hover { color:#666666; }
     margin-left: -1px;
 }
 
-p, .tm-text-gray { color: #ffffff; }
+p, .tm-text-gray { color: #000000; }
+.tm-text-gray1 { color: #ffffff; }
 .tm-text-gray-light { color: #e81422; }
 .tm-text-gray-dark { color: #e81422; }
 
@@ -484,9 +485,11 @@ figure.effect-ming:hover img { opacity: 0.4; }
 .tm-row-1640 { max-width: 1640px; }
 .tm-about-2-col { max-width: 716px; }
 .tm-about-3-col { max-width: 540px; }
+.tm-about-6-col { max-width: 270px; }
 
 .tm-about-2-col,
-.tm-about-3-col {
+.tm-about-3-col,
+.tm-about-6-col {
     margin-bottom: 50px;
 }
 
@@ -567,11 +570,11 @@ select:not([multiple]) {
 .form-control,
 input:-internal-autofill-selected,
 select:not([multiple]) {
-    color: #009999 !important;
+    color: #e81422 !important;
 }
 
 .form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-    color:  #009999;
+    color:  #e81422;
     opacity: 1; /* Firefox */
 }
 
@@ -594,7 +597,7 @@ select:not([multiple]) {
     .tm-paging-col { flex-direction: column; }
     .tm-paging { flex-wrap: wrap; }
     .tm-about-img-text { max-width: 640px; }
-    .tm-about-2-col, .tm-about-3-col { margin-bottom: 50px; }
+    .tm-about-2-col, .tm-about-3-col, .tm-about-6-col { margin-bottom: 50px; }
 }
 
 @media (max-width: 575px) {
